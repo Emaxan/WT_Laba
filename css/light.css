@@ -1,0 +1,163 @@
+body{
+	background: url(../img/BG_day.jpg);
+}
+
+input.form-control:focus{
+    border-color: #f3f3f3 #a3a3a3 #a3a3a3 #f3f3f3 !important;
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,0.6);
+}
+
+input.form-control{
+	border-color: #a3a3a3 #f3f3f3 #f3f3f3 #a3a3a3;
+}
+
+input.form-control[type="submit"]{
+	border-color: #a3a3a3 #f3f3f3 #f3f3f3 #a3a3a3;
+}
+
+input.form-control[type="submit"]:active{
+	border-color: #f3f3f3 #a3a3a3 #a3a3a3 #f3f3f3;
+}
+
+p{
+	color: #666666;
+}
+
+.btn-default:hover{
+	color: red;
+	background-color: #c3c3c3;
+}
+
+.btn-default{
+	color: black;
+}
+
+.navbar-inverse{
+	background-color: #eee !important;
+}
+
+.navbar-inverse .navbar-brand{
+	color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: black;
+}
+
+.file_upload{
+	border-color: #a3a3a3 #f3f3f3 #f3f3f3 #a3a3a3;
+	background-color: #c3c3c3;  
+}
+
+.file_upload.focus{
+	border-color: #f3f3f3 #a3a3a3 #a3a3a3 #f3f3f3;
+}
+
+.file_upload .button{
+    background: rgba(255,255,255,0.25);       
+}
+
+.file_upload > mark{
+    color: black;
+}
+
+.shadow-top{
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,0.6);
+}
+
+.btn-default:hover{
+	border-color: white;
+}
+
+.btn-group-vertical>.btn:last-child:not(:first-child){
+	border-left-color: #a3a3a3;
+}
+
+.btn-group-vertical>.btn:not(:last-child):not(:first-child){
+	border-left-color: #a3a3a3;
+}
+
+.btn-group-vertical>.btn:last-child:not(:first-child):active,
+.btn-group-vertical>.btn:not(:last-child):not(:first-child):active{
+	border-left-color: white;
+	border-right-color: #a3a3a3;
+	border-bottom-color: #a3a3a3;
+}
+
+.btn-group-vertical>.btn:first-child:not(:last-child){
+	border-left-color: #a3a3a3;	
+	border-top-color: #a3a3a3;
+}
+
+.btn-group-vertical>.btn:first-child:not(:last-child):active{
+	border-left-color: white;	
+	border-top-color: white;
+	border-right-color: #a3a3a3;
+	border-bottom-color: #a3a3a3;
+}
+
+.form-group>input.form-control:nth-last-of-type(1){
+	border-bottom-color: #a3a3a3;
+}	
+
+.form-control:focus{
+	border-color: #a3a3a3;
+	border-left-color: white;
+}	
+
+.form-control{
+	background-color: #c3c3c3;
+	color: black;
+}
+
+.checkBoxLabel{
+	border-color: #a3a3a3 white white #a3a3a3;
+	background-color: #c3c3c3;
+}
+
+.ui-controlgroup-controls>div>label{
+	border-color: #a3a3a3 white white #a3a3a3;
+	background-color: #c3c3c3;
+}
+
+.checked{
+	border-color: white #a3a3a3 #a3a3a3 white !important;
+}
+
+.border{
+	border-color: #a3a3a3;
+}
+
+.border-down{
+	color: black;
+	background-color: rgba(243,243,243,0.95);
+}
+
+.glassBG{
+	-ms-background:   
+		rgba(0,0,0,.3)
+		url(../img/BG_night.jpg);
+	background-image: 
+		linear-gradient(to right,   
+			rgba(0,0,0,.3),   
+			rgba(0,0,0,0) 5%,   
+			rgba(0,0,0,0) 95%,   
+			rgba(0,0,0,.3)),
+		linear-gradient(to top,   
+			rgba(0,0,0,.3),   
+			rgba(0,0,0,0) 5%,   
+			rgba(0,0,0,0) 95%,   
+			rgba(0,0,0,.3)),
+		linear-gradient(to top,   
+			rgba(0,0,0,.1) 0%,  
+			rgba(0,0,0,.1) 100%),
+		url(../img/BG_day.jpg);
+}
+
+.navButtons{
+	border-color: white;
+}
+
+#footerText1, #footerText2{
+	color:black; 
+}

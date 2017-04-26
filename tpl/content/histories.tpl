@@ -1,0 +1,1 @@
+{FILE='tpl/smallHistory.tpl';NUMBER='5';TABLE='histories'}

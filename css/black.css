@@ -1,0 +1,137 @@
+body{
+	background: url(../img/BG_night.jpg);
+}
+
+input.form-control:focus{
+    border-color: #0c0c0c #6c6c6c #6c6c6c #0c0c0c !important;
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,0.6);
+}
+
+input.form-control{
+	border-color: #6c6c6c #0c0c0c #0c0c0c #6c6c6c;
+}
+
+input.form-control[type="submit"]{
+	border-color: #6c6c6c #0c0c0c #0c0c0c #6c6c6c;
+}
+
+input.form-control[type="submit"]:active{
+	border-color: #0c0c0c #6c6c6c #6c6c6c #0c0c0c;
+}
+
+p{
+	color: #aaaaaa;
+}
+
+.file_upload{
+	border-color: #6c6c6c #0c0c0c #0c0c0c #6c6c6c;
+	background-color: #3c3c3c;  
+}
+
+.file_upload.focus{
+	border-color: #0c0c0c #6c6c6c #6c6c6c #0c0c0c;
+}
+
+.file_upload .button{
+    background: rgba(0,0,0,0.25);       
+}
+
+.file_upload > mark{
+    color: white;
+}
+
+.shadow-top{
+    box-shadow: inset 3px 3px 5px rgba(0,0,0,0.6);
+}
+
+.btn-default:hover{
+	border-color: black;
+}
+
+.btn-group-vertical>.btn:last-child:not(:first-child){
+	border-left-color: #6c6c6c;
+}
+
+.btn-group-vertical>.btn:not(:last-child):not(:first-child){
+	border-left-color: #6c6c6c;
+}
+
+.btn-group-vertical>.btn:last-child:not(:first-child):active,
+.btn-group-vertical>.btn:not(:last-child):not(:first-child):active{
+	border-left-color: black;
+	border-right-color: #6c6c6c;
+	border-bottom-color: #6c6c6c;
+}
+
+.btn-group-vertical>.btn:first-child:not(:last-child){
+	border-left-color: #6c6c6c;	
+	border-top-color: #6c6c6c;
+}
+
+.btn-group-vertical>.btn:first-child:not(:last-child):active{
+	border-left-color: black;	
+	border-top-color: black;
+	border-right-color: #6c6c6c;
+	border-bottom-color: #6c6c6c;
+}
+
+.form-group>input.form-control:nth-last-of-type(1){
+	border-bottom-color: #6c6c6c;
+}	
+
+.form-control:focus{
+	border-color: #6c6c6c;
+	border-left-color: black;
+}
+
+.checkBoxLabel{
+	border-color: #6c6c6c black black #6c6c6c;
+	background-color: #3c3c3c;
+}
+
+.ui-controlgroup-controls>div>label{
+	border-color: #6c6c6c black black #6c6c6c;
+	background-color: #3c3c3c;
+}
+
+.checked{
+	border-color: black #6c6c6c #6c6c6c black !important;
+}
+
+.border{
+	border-color: #6c6c6c;
+}
+
+.border-down{
+	color: white;
+	background-color: rgba(12,12,12,0.95);
+}
+
+.glassBG{
+	-ms-background:   
+		rgba(255,255,255,.3)
+		url(../img/BG_night.jpg);
+	background-image: 
+		linear-gradient(to right,   
+			rgba(255,255,255,.3),   
+			rgba(255,255,255,0) 5%,   
+			rgba(255,255,255,0) 95%,   
+			rgba(255,255,255,.3)),
+		linear-gradient(to top,   
+			rgba(255,255,255,.3),   
+			rgba(255,255,255,0) 5%,   
+			rgba(255,255,255,0) 95%,   
+			rgba(255,255,255,.3)),
+		linear-gradient(to top,   
+			rgba(255,255,255,.1) 0%,  
+			rgba(255,255,255,.1) 100%),
+		url(../img/BG_night.jpg);
+}
+
+.navButtons{
+	border-color: black;
+}
+
+#footerText1, #footerText2{
+	color:white; 
+}

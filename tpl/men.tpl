@@ -1,0 +1,4 @@
+<a href="show{NAMEPARAM}.php?id={DATABASE;TABLE='{NAMEPARAM}s';FIELD='{NAMEPARAM}_id';ID='{MYID}'}" class="border border-down" style="margin: 15px auto;">
+	<img src="{DATABASE;TABLE='users';FIELD='User_avatar';ID='{MYID}';MENID='{DATABASE;TABLE='{NAMEPARAM}s';FIELD='{NAMEPARAM}_id';ID='{MYID}'}'}" alt="{DATABASE;TABLE='users';FIELD='User_name';ID='{MYID}';MENID='{DATABASE;TABLE='{NAMEPARAM}s';FIELD='{NAMEPARAM}_id';ID='{MYID}'}'}" style="width: 200px;height: 200px;border-radius: 50%; margin: 5px;">
+	<h5 style="text-align: center;">{DATABASE;TABLE='users';FIELD='User_name';ID='{MYID}';MENID='{DATABASE;TABLE='{NAMEPARAM}s';FIELD='{NAMEPARAM}_id';ID='{MYID}'}'} {DATABASE;TABLE='users';FIELD='User_second_name';ID='{MYID}';MENID='{DATABASE;TABLE='{NAMEPARAM}s';FIELD='{NAMEPARAM}_id';ID='{MYID}'}'}</h5>
+</a>

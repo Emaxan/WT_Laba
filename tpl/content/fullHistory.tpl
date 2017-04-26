@@ -1,0 +1,6 @@
+<div class="border border-down hotNews">
+						<a href="show{{DATABASE;TABLE='users';FIELD='User_profession';ID='{GETMYID}';MENID='{DATABASE;TABLE='histories';FIELD='Character_id';ID='{GETMYID}'}'}}.php?id={DATABASE;TABLE='histories';FIELD='Character_id';ID='{GETMYID}'}"><h3>{DATABASE;TABLE='users';FIELD='User_name';ID='{GETMYID}';MENID='{DATABASE;TABLE='histories';FIELD='Character_id';ID='{GETMYID}'}'} {DATABASE;TABLE='users';FIELD='User_second_name';ID='{GETMYID}';MENID='{DATABASE;TABLE='histories';FIELD='Character_id';ID='{GETMYID}'}'}</h3></a>
+						<p style="font-size: 0.8em">{DATABASE;TABLE='histories';FIELD='Full_text';ID='{GETMYID}'}</p>
+						<br><a href="{DATABASE;TABLE='histories';FIELD='Original';ID='{GETMYID}'}">Оригинал статьи</a>
+						<br>Автор: <a href="show{{DATABASE;TABLE='users';FIELD='User_profession';ID='{GETMYID}';MENID='{DATABASE;TABLE='histories';FIELD='Author_id';ID='{GETMYID}'}'}}.php?id={DATABASE;TABLE='histories';FIELD='Author_id';ID='{GETMYID}'}">{DATABASE;TABLE='users';FIELD='User_name';ID='{GETMYID}';MENID='{DATABASE;TABLE='histories';FIELD='Author_id';ID='{GETMYID}'}'} {DATABASE;TABLE='users';FIELD='User_second_name';ID='{GETMYID}';MENID='{DATABASE;TABLE='histories';FIELD='Author_id';ID='{GETMYID}'}'}</a>
+					</div>

@@ -1,0 +1,5 @@
+<div class="border border-down hotNews">
+						<h3>{DATABASE;TABLE='news';FIELD='News_Title';ID='{GETMYID}'}</h3>
+						<p>{DATABASE;TABLE='news';FIELD='News_FullForm';ID='{GETMYID}'}</p>
+						<div style='float: right; margin-right: 10px; font-size: 0.7em;'>Автор: <a href="show{{DATABASE;TABLE='users';FIELD='User_profession';ID='{GETMYID}';MENID='{DATABASE;TABLE='news';FIELD='User_id';ID='{GETMYID}'}'}}.php?id={DATABASE;TABLE='news';FIELD='User_id';ID='{GETMYID}'}">{DATABASE;TABLE='users';FIELD='User_name';ID='{GETMYID}';MENID='{DATABASE;TABLE='news';FIELD='User_id';ID='{GETMYID}'}'} {DATABASE;TABLE='users';FIELD='User_second_name';ID='{GETMYID}';MENID='{DATABASE;TABLE='news';FIELD='User_id';ID='{GETMYID}'}'}</a></div><br><a href="{DATABASE;TABLE='news';FIELD='Original';ID='{GETMYID}'}">Оригинал статьи</a>
+					</div>
